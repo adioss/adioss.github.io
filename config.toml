@@ -1,0 +1,83 @@
+baseurl = "adioss.github.io"
+languageCode = "en-us"
+title = "adioss.github.io"
+theme = "hugo-theme-codex"
+paginate = 10
+Copyright = "© apailhes GE 2021"
+canonifyurls = true
+
+[taxonomies]
+category = "blog"
+tag      = "tags"
+series   = "series"
+
+[params]
+dateform        = "Jan 2, 2006"
+dateformShort   = "Jan 2"
+dateformNum     = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+
+# Subtitle for home
+homeSubtitle = "Application security engineer"
+
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
+
+# Enable sharing buttons, if you linke
+enableSharingButtons = true
+
+# Metadata mostly used in document's head
+description = "Adrien PAILHES's website and blog."
+keywords = "homepage, blog"
+images = [""]
+
+[params.portrait]
+path = "/images/apailhes.jpeg"
+
+[[params.social]]
+name = "twitter"
+url  = "https://twitter.com/adrienpailhes"
+
+[[params.social]]
+name = "github"
+url  = "https://github.com/adioss"
+
+[[params.social]]
+name = "gitlab"
+url  = "https://gitlab.com/adioss"
+
+[[params.social]]
+name = "linkedin"
+url  = "https://linkedin.com/in/adrien-pailhes-7a353471/"
+
+#[[params.social]]
+#name = "dev"
+#url  = "https://dev.to/adioss"
+#
+#[[params.social]]
+#name = "medium"
+#url  = "https://medium.com/@apailhes/"
+
+[languages]
+[languages.en]
+title = "Adrien PAILHES"
+subtitle = "AppSec – Architect – Developer"
+homeSubtitle = "AppSec – Architect – Developer"
+keywords = "developer,architect,appsec"
+copyright = 'CC BY-NC 4.0'
+readOtherPosts = "Read other posts"
+
+[languages.en.params.logo]
+logoText = "cd ~"
+logoHomeLink = "/"
+
+[[languages.en.menu.main]]
+identifier = "whoami"
+name       = "whoami"
+url        = "/whoami/"
+weight     = 1
+[[languages.en.menu.main]]
+identifier = "blog"
+name       = "Blog"
+url        = "/posts/"
+weight     = 2
