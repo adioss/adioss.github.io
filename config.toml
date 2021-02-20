@@ -1,83 +1,81 @@
-baseurl = "adioss.github.io"
-languageCode = "en-us"
-title = "adioss.github.io"
-theme = "hugo-theme-codex"
-paginate = 10
-Copyright = "© apailhes GE 2021"
-canonifyurls = true
+baseurl = "https://adioss.github.io" # Hostname (and path) to the root.
+title = "Adrien Pailhes" # Site title.
+theme = "coder-portfolio" # Set the theme.
+languagecode = "en" # The site’s language code used to generate RSS.
+defaultcontentlanguage = "en" # The default content language.
 
-[taxonomies]
-category = "blog"
-tag      = "tags"
-series   = "series"
+paginate = 20 # Default number of pages per page in pagination.
 
-[params]
-dateform        = "Jan 2, 2006"
-dateformShort   = "Jan 2"
-dateformNum     = "2006-01-02"
-dateformNumTime = "2006-01-02 15:04"
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+pygmentsUseClasses = true # new add
 
-# Subtitle for home
-homeSubtitle = "Application security engineer"
+disqusShortname = "adioss" # Enable or disable Disqus.
 
-# Set disableReadOtherPosts to true in order to hide the links to other posts.
-disableReadOtherPosts = false
+[params] # theme parameters
+author = "Adrien Pailhes" # Author's name.
+info = "AppSec ENGINEER" # Author's job title or info.
+description = "Adrien Pailhes's personal website" # Site description.
+keywords = "blog,developer,appsec,security,personal" # Site keywords.
+avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
 
-# Enable sharing buttons, if you linke
-enableSharingButtons = true
+footercontent = "" # Add footer content
+fixedbarContent = "Do you want to know me more private?→" # Add fixedbar content
+fixedbarContentAfter = "Thank You! Please share it if you like it→" # Add fixedbar content after click
 
-# Metadata mostly used in document's head
-description = "Adrien PAILHES's website and blog."
-keywords = "homepage, blog"
-images = [""]
+# Whether you want to hide copyright and credits in the footer.
+hideCredits = false
+hideCopyright = false
 
-[params.portrait]
-path = "/images/apailhes.jpeg"
+# Custom CSS
+custom_css = []
 
+# Alignment of Mobile Menu items
+itemscentered = true
+
+# RTL support
+rtl = false
+
+# Bottom sns share
+snsShare = true # new add
+# Popular sns share
+# if you want add sns. please message!
+#enableGitHubShare = true  # new add
+enableTwitterShare = true  # new add
+enableFacebookShare = false # new add
+enableHatenaShare = false   # new add
+enableLineShare = false     # new add
+enableLinkedInShare = true # new add
+
+thumbnail = "images/tn.png" # default sns thumbnail
+
+# Multilanguage mode
+langseparator = "|" # Separates menus from language selectors when site is multilingual.
+
+# Social links
 [[params.social]]
-name = "twitter"
-url  = "https://twitter.com/adrienpailhes"
-
+name = "Github"
+icon = "fab fa-github"
+weight = 1
+url = "https://github.com/adioss"
 [[params.social]]
-name = "github"
-url  = "https://github.com/adioss"
-
+name = "Twitter"
+icon = "fab fa-twitter"
+weight = 2
+url = "https://twitter.com/adrienpailhes"
 [[params.social]]
-name = "gitlab"
-url  = "https://gitlab.com/adioss"
+name = "LinkedIn"
+icon = "fab fa-linkedin"
+weight = 3
+url = "https://linkedin.com/in/adrien-pailhes-7a353471/"
 
-[[params.social]]
-name = "linkedin"
-url  = "https://linkedin.com/in/adrien-pailhes-7a353471/"
-
-#[[params.social]]
-#name = "dev"
-#url  = "https://dev.to/adioss"
-#
-#[[params.social]]
-#name = "medium"
-#url  = "https://medium.com/@apailhes/"
-
-[languages]
-[languages.en]
-title = "Adrien PAILHES"
-subtitle = "AppSec – Architect – Developer"
-homeSubtitle = "AppSec – Architect – Developer"
-keywords = "developer,architect,appsec"
-copyright = 'CC BY-NC 4.0'
-readOtherPosts = "Read other posts"
-
-[languages.en.params.logo]
-logoText = "cd ~"
-logoHomeLink = "/"
-
-[[languages.en.menu.main]]
-identifier = "whoami"
-name       = "whoami"
-url        = "/whoami/"
-weight     = 1
-[[languages.en.menu.main]]
-identifier = "blog"
-name       = "Blog"
-url        = "/posts/"
-weight     = 2
+# Menu links
+[[menu.main]]
+name = "Blog"
+weight = 1
+url = "posts"
+[[menu.main]]
+name = "About"
+weight = 2
+url = "about"
