@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/adioss
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://adioss.github.io
+  * I am adioss (https://keybase.io/adioss) on keybase.
+  * I have a public key with fingerprint AAA0 BA71 2CD5 C5FB 9737  96F8 C0B6 9EC1 302A D90D
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c96bd5a4b0a717d9253856bf648401025027219c1e1c35f628028ed80262e1e30a",
+      "fingerprint": "aaa0ba712cd5c5fb973796f8c0b69ec1302ad90d",
+      "host": "keybase.io",
+      "key_id": "c0b69ec1302ad90d",
+      "kid": "0101c96bd5a4b0a717d9253856bf648401025027219c1e1c35f628028ed80262e1e30a",
+      "uid": "23ee1149a238c2e96b244c562f4ba119",
+      "username": "adioss"
+    },
+    "service": {
+      "hostname": "adioss.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1614096039,
+  "expire_in": 157680000,
+  "prev": "41eb0f985e3d77a79918d65d668fae37adb6008934d8619927ff09c6dd66605c",
+  "seqno": 30,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMImAnicrZJbSBVBGMePlUe0BKHoIaxky6DQ08zs7uzOsQy6gNgVojqEcJrdmdXN
+PHs8u8cuYnF66CFUKJOgoDK6aQ9SYCqWeImgG9I9KvGhwG4G1VMXqVmrh6DH5mGG
++b7//zff9zHXsycHstL6MvOynn8/tT7tdv+xZGCbuuB8rWQ4bLcUrpUq+cTBdzDu
+etFKm0lhCUAATYINplLFAFSDGiNIlXUVGxZWdEXkkQqQhiAxIYemrFoY6QDpnIkd
+Iw65DKhUIFl2rJwn4gk75gkspRQYgoZMppqqZRBN1gi2dBMYmHATygBRRgATxgrH
+9R2iOIO6PGQ7IiYu0Yny/qH/z3UnJ3BI5hxChVAk6ybiAowUxVQxshSDQkh8ocsT
+MVrF/e6Y7biuVFcgiViNbXJ/rH4ff+VD5bZXkTR+dRRPOJ5jOjtEtsLz4m7Yd3u7
+4758Jzeiv0FRw44xMUnhqOEJ13ZiUhgKpenZPhliqACCgUwKJL4rbid41PYVqoZ1
+IJb/Dq8RSAVyA1hEV7nMNI1qhECdYZVhrFuUyxplBgZAJ7LCdAwJQZplAWJiJhQY
+qKbkt1Ydc6SwLKAeLRdM1y6PUS+Z4FLdQF/ZlEBaViCYPsn/YoGszJw/H29Pc8Z4
+bhFNRjbdPXnwzOCqhpzuH/lNN9bkjowMKzPmn0+h3ieJjPymo7dRqLXsaHPfgYHO
+PbUvppmp40Vv53a9GSo+O2+22lSS0reEZk5Z1/3g1YZlS1sjp9wVc9JfF3++0Dvc
+Vdgx8qRj9cKSp42Rt1f18Q+N574+gtmb94/RpylUvw92R8bVk/V1Q6nQs0XTT7dt
+197xT6Pu/cv3xu609IeD2Y0doeXvvzQc+nHkZUZb5+IrBdH6u1UfW6p75KGBE3tH
+W3vmtw8aZz4fa29q6Aqxlt7+xQOzbgYWTG0szD88vXTa1iW3Hg+Wto0EH2bmfYts
+W3nxvV0VHLt2Sc7JDY6ey9y4du5PoWlAvA==
+=wpsV
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/adioss
+
+==================================================================
