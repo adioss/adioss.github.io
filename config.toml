@@ -1,35 +1,44 @@
 baseurl = "/"
 languageCode = "en-us"
-theme = "hello-friend"
-paginate = 5
+theme = "hello-friend-ng"
+paginate = 10
 
 [params]
-# dir name of your blog content (default is `content/posts`).
-# the list of set content will show up on your index page (baseurl).
 contentTypeName = "posts"
-
-# "light" or "dark"
 defaultTheme = "light"
-
-# if you set this to 0, only submenu trigger will be visible
 showMenuItems = 2
-
-# Show reading time in minutes for posts
 showReadingTime = false
+description = "Adrien Pailhes's website and blog."
+keywords = "homepage, blog"
 
 [params.portrait]
 path = "/images/avatar.jpg"
-# Show table of contents at the top of your posts (defaults to false)
-# Alternatively, add this param to post front matter for specific posts
-# toc = true
+maxWidth = "200px"
 
-# Show full page content in RSS feed items
-#(default is Description or Summary metadata in the front matter)
-# rssFullText = true
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/adrienpailhes"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/adioss"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/apailhes/"
+
+#[[params.social]]
+#name = "dev"
+#url = "https://dev.to/adioss/"
+
+#[[params.social]]
+#name = "medium"
+#url  = "https://medium.com/@apailhes/"
+
 
 [languages]
 [languages.en]
-title = "Adrien Pailhès"
+title = "Adrien PAILHES"
 subtitle = "Developer – Application Security Engineer"
 homeSubtitle = "Developer – Application Security Engineer"
 keywords = "developer,security,appsec,redteam"

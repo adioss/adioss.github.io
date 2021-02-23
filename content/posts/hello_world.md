@@ -3,8 +3,12 @@ title = "Hello world"
 slug = "hello-world"
 tags = []
 categories = []
+comments = true
+
 +++
 
 ## THIS A TEST
 
 IN PROGRESS
+
+here

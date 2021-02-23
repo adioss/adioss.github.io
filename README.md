@@ -1,10 +1,10 @@
 # adioss.github.io
 
-Theme: https://themes.gohugo.io/hugo-theme-hello-friend/
+Theme: https://themes.gohugo.io/hugo-theme-hello-friend-ng/
 
 ```
-docker run --rm -it -v $(pwd):/src klakegg/hugo:0.80.0 
-docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.80.0 server
+docker run --rm -it -v $(pwd):/src klakegg/hugo:latest-ext
+docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:latest-ext server
 ```
 
 Remove submodules
