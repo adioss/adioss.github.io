@@ -1,6 +1,6 @@
-+++ title = "About Hugo"
++++ title = "About me"
 slug = "about"
-description = "this is all about"
+description = "this is all about me"
 
 +++ Hi,
 
