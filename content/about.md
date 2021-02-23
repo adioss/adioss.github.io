@@ -10,7 +10,7 @@ I am Adrien Pailhès, and here is my website.
 
 I'm an application security engineer but I'm mostly a programmer.
 
-I live in Lorgues in South of France.
+I live in Lorgues in south of France.
 
 You can go here for more info:
 
