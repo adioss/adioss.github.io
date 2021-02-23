@@ -1,81 +1,64 @@
-baseurl = "https://adioss.github.io" # Hostname (and path) to the root.
-title = "Adrien Pailhes" # Site title.
-theme = "coder-portfolio" # Set the theme.
-languagecode = "en" # The site’s language code used to generate RSS.
-defaultcontentlanguage = "en" # The default content language.
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend"
+paginate = 5
 
-paginate = 20 # Default number of pages per page in pagination.
+[params]
+# dir name of your blog content (default is `content/posts`).
+# the list of set content will show up on your index page (baseurl).
+contentTypeName = "posts"
 
-pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
-pygmentscodefences = true # Enable code fence background highlighting.
-pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
-pygmentsUseClasses = true # new add
+# "light" or "dark"
+defaultTheme = "light"
 
-disqusShortname = "disqus_sxBp2VGqDN" # Enable or disable Disqus.
+# if you set this to 0, only submenu trigger will be visible
+showMenuItems = 2
 
-[params] # theme parameters
-author = "Adrien Pailhes" # Author's name.
-info = "AppSec ENGINEER" # Author's job title or info.
-description = "Adrien Pailhes's personal website" # Site description.
-keywords = "blog,developer,appsec,security,personal" # Site keywords.
-avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
+# Show reading time in minutes for posts
+showReadingTime = false
 
-footercontent = "" # Add footer content
-fixedbarContent = "Do you want to know me more private?→" # Add fixedbar content
-fixedbarContentAfter = "Thank You! Please share it if you like it→" # Add fixedbar content after click
+# Show table of contents at the top of your posts (defaults to false)
+# Alternatively, add this param to post front matter for specific posts
+# toc = true
 
-# Whether you want to hide copyright and credits in the footer.
-hideCredits = false
-hideCopyright = false
+# Show full page content in RSS feed items
+#(default is Description or Summary metadata in the front matter)
+# rssFullText = true
 
-# Custom CSS
-custom_css = []
+[languages]
+[languages.en]
+title = "Hello Friend"
+subtitle = "Put something here"
+keywords = ""
+copyright = ""
+menuMore = "Show more"
+writtenBy = "Written by"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+newerPosts = "Newer posts"
+olderPosts = "Older posts"
+minuteReadingTime = "min read"
+dateFormatSingle = "2006-01-02"
+dateFormatList = "2006-01-02"
+# leave empty to disable, enter display text to enable
+# lastModDisplay = ""
 
-# Alignment of Mobile Menu items
-itemscentered = true
+[languages.en.params.logo]
+logoText = "alias cd='rm -rf'"
+logoHomeLink = "/"
+# or
+#
+# path = "/img/your-example-logo.svg"
+# alt = "Your example logo alt text"
 
-# RTL support
-rtl = false
-
-# Bottom sns share
-snsShare = true # new add
-# Popular sns share
-# if you want add sns. please message!
-#enableGitHubShare = true  # new add
-enableTwitterShare = true  # new add
-enableFacebookShare = false # new add
-enableHatenaShare = false   # new add
-enableLineShare = false     # new add
-enableLinkedInShare = true # new add
-
-thumbnail = "images/tn.png" # default sns thumbnail
-
-# Multilanguage mode
-langseparator = "|" # Separates menus from language selectors when site is multilingual.
-
-# Social links
-[[params.social]]
-name = "Github"
-icon = "fab fa-github"
-weight = 1
-url = "https://github.com/adioss"
-[[params.social]]
-name = "Twitter"
-icon = "fab fa-twitter"
-weight = 2
-url = "https://twitter.com/adrienpailhes"
-[[params.social]]
-name = "LinkedIn"
-icon = "fab fa-linkedin"
-weight = 3
-url = "https://linkedin.com/in/adrien-pailhes-7a353471/"
-
-# Menu links
-[[menu.main]]
+[[languages.en.menu.main]]
+identifier = "blog"
 name = "Blog"
+url = "/posts"
 weight = 1
-url = "posts"
-[[menu.main]]
+[languages.en.menu]
+[[languages.en.menu.main]]
+identifier = "about"
 name = "About"
+url = "/about"
 weight = 2
-url = "about"
