@@ -17,6 +17,8 @@ showMenuItems = 2
 # Show reading time in minutes for posts
 showReadingTime = false
 
+[params.portrait]
+path = "/images/avatar.jpg"
 # Show table of contents at the top of your posts (defaults to false)
 # Alternatively, add this param to post front matter for specific posts
 # toc = true
@@ -27,10 +29,11 @@ showReadingTime = false
 
 [languages]
 [languages.en]
-title = "Hello Friend"
-subtitle = "Put something here"
-keywords = ""
-copyright = ""
+title = "Adrien Pailhès"
+subtitle = "Developer – Application Security Engineer"
+homeSubtitle = "Developer – Application Security Engineer"
+keywords = "developer,security,appsec,redteam"
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 menuMore = "Show more"
 writtenBy = "Written by"
 readMore = "Read more"
