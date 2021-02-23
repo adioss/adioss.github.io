@@ -1,8 +1,19 @@
 +++ title = "About Hugo"
 slug = "about"
-thumbnail = "images/tn.png"
-description = "TODO"
-+++
+description = "this is all about"
 
----------------------------
-TODO
++++ Hi,
+
+I am Adrien Pailhès, and here is my website.
+
+{{< image src="/images/avatar.jpg" alt="It's me!" position="center" style="width: 50%;border-radius: 12px;" >}}
+
+I'm an application security engineer but I'm mostly a programmer.
+
+I live in Lorgues in South of France.
+
+You can go here for more info:
+
+* [Github](https://github.com/adioss) / [DockerHub](https://hub.docker.com/u/adioss/)
+* [Twitter](https://twitter.com/adrienpailhes)
+* [LinkedIn profile](https://www.linkedin.com/in/apailhes/)
