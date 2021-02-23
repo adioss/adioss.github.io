@@ -1,5 +1,18 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Adrien PAILHES</title><link>/posts/</link><description>Recent content in Posts on Adrien PAILHES</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello world</title><link>/posts/hello-world/</link><pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate><guid>/posts/hello-world/</guid><description>THIS A TEST IN PROGRESS
-here</description><content type="html"><![CDATA[<h2 id="this-a-test">THIS A TEST</h2>
-<p>IN PROGRESS</p>
-<p>here</p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Adrien PAILHES</title><link>/posts/</link><description>Recent content in Posts on Adrien PAILHES</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello world</title><link>/posts/hello-world/</link><pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate><guid>/posts/hello-world/</guid><description>This is a reboot In a previous life, I used to create content in a blog: https://adioss.fr
+Too much other stuff to do, no more time to maintain&amp;hellip; I stopped.
+I will try to reboot this practice with a simpler stack:
+hugo framework free hosting using github pages (in https://github.com/adioss/adioss.github.io): deploy on commit using actions add comments using Let&amp;rsquo;s see if I can produce valuable content.</description><content type="html"><![CDATA[<h2 id="this-is-a-reboot">This is a reboot</h2>
+<p>In a previous life, I used to create content in a blog: <a href="https://adioss.fr">https://adioss.fr</a></p>
+<p>Too much other stuff to do, no more time to maintain&hellip; I stopped.</p>
+<p>I will try to reboot this practice with a simpler stack:</p>
+<ul>
+<li><a href="https://gohugo.io/about/">hugo framework</a></li>
+<li>free hosting using github pages (in <a href="https://github.com/adioss/adioss.github.io):">https://github.com/adioss/adioss.github.io):</a>
+<ul>
+<li>deploy on commit using actions</li>
+<li>add comments using</li>
+</ul>
+</li>
+</ul>
+<p>Let&rsquo;s see if I can produce valuable content.</p>
 ]]></content></item></channel></rss>

@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Adrien PAILHES</title><link>/</link><description>Recent content on Adrien PAILHES</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello world</title><link>/posts/hello-world/</link><pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate><guid>/posts/hello-world/</guid><description>THIS A TEST IN PROGRESS
-here</description></item><item><title>About me</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>Hi,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Adrien PAILHES</title><link>/</link><description>Recent content on Adrien PAILHES</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello world</title><link>/posts/hello-world/</link><pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate><guid>/posts/hello-world/</guid><description>This is a reboot In a previous life, I used to create content in a blog: https://adioss.fr
+Too much other stuff to do, no more time to maintain&amp;hellip; I stopped.
+I will try to reboot this practice with a simpler stack:
+hugo framework free hosting using github pages (in https://github.com/adioss/adioss.github.io): deploy on commit using actions add comments using Let&amp;rsquo;s see if I can produce valuable content.</description></item><item><title>About me</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>Hi,
 I am Adrien Pailhès, and here is my website.
 I&amp;rsquo;m an application security engineer but I&amp;rsquo;m mostly a programmer.
-I live in Lorgues in South of France.
+I live in Lorgues in south of France.
 You can go here for more info:
 Github / DockerHub Twitter LinkedIn profile</description></item></channel></rss>
